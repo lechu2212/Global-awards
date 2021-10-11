@@ -1,0 +1,1235 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #fff;
+	overflow-x: hidden;
+	font-weight: 400;
+    background: rgb(36, 33, 33);
+}
+input,textarea,select{
+	/font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400; 
+}
+
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+section.wrapper{
+    
+    width:90%;
+    margin: 0 auto;
+}
+header{
+
+}
+header section.head {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header section.head div.right {
+
+    width: 47%;
+}
+header section.head div.right {
+
+}
+header section.head div.right nav {
+    display: flex;
+    width: 470px;;
+    justify-content: space-around;
+    align-items: center;
+}
+header section.head div.right nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1px;
+    font-size: 14px;
+    color: gray;
+}
+header section.head div.right nav ul li {
+    margin-right: 20px;
+}
+header section.head div.right nav ul li a:hover{
+    color: #fff;
+}
+header section.head div.right nav ul li a {
+    font-size: 15px;
+    color: gray;
+}
+section.wrapper header section.head div.right nav div.button  {
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    padding: 2px;
+    border-radius: 10px;
+}
+section.wrapper header section.head div.right nav div.button a.button{
+    font-size: 15px;
+    color: hsl(17deg 88% 50%);
+    background: #242121;
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#spotlight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotlight div.left {
+
+}
+#spotlight div.left h1 {
+    font-size: 44px;
+}
+#spotlight div.left p {
+    FONT-SIZE: 16PX;
+    MARGIN-TOP: 18PX;
+    color: darkgray;
+}
+
+#spotlight div.left a {
+    font-size: 15px;
+    color: #ffffff;
+   padding: 12px 23px;
+   display: inline-block;
+   border: 1px solid #e5831e ;
+   border-radius: 10px;
+   MARGIN-TOP: 35PX;
+   background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+}
+#spotlight div.left a span {
+    color: #e6dbdb85;
+    font-family:sans-serif
+}
+#spotlight div.right {
+    position: relative;
+}
+#spotlight div.right div.img {
+    
+margin-left: 10px;
+width: 443PX;
+}* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #fff;
+	overflow-x: hidden;
+	font-weight: 400;
+    background: rgb(36, 33, 33);
+}
+input,textarea,select{
+	/font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400; 
+}
+
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+section.wrapper{
+    
+    width:90%;
+    margin: 0 auto;
+}
+header{
+
+}
+header section.head {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header section.head div.right {
+
+    width: 47%;
+}
+header section.head div.right {
+
+}
+header section.head div.right nav {
+    display: flex;
+    width: 470px;;
+    justify-content: space-around;
+    align-items: center;
+}
+header section.head div.right nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1px;
+    font-size: 14px;
+    color: gray;
+}
+header section.head div.right nav ul li {
+    margin-right: 20px;
+}
+header section.head div.right nav ul li a:hover{
+    color: #fff;
+}
+header section.head div.right nav ul li a {
+    font-size: 15px;
+    color: gray;
+}
+section.wrapper header section.head div.right nav div.button  {
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    padding: 2px;
+    border-radius: 10px;
+}
+section.wrapper header section.head div.right nav div.button a.button{
+    font-size: 15px;
+    color: hsl(17deg 88% 50%);
+    background: #242121;
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#spotlight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotlight div.left {
+
+}
+#spotlight div.left h1 {
+    font-size: 44px;
+}
+#spotlight div.left p {
+    FONT-SIZE: 16PX;
+    MARGIN-TOP: 18PX;
+    color: darkgray;
+}
+
+#spotlight div.left a {
+    font-size: 15px;
+    color: #ffffff;
+   padding: 12px 23px;
+   display: inline-block;
+   border: 1px solid #e5831e ;
+   border-radius: 10px;
+   MARGIN-TOP: 35PX;
+   background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+}
+#spotlight div.left a span {
+    color: #e6dbdb85;
+    font-family:sans-serif
+}
+#spotlight div.right {
+    position: relative;
+}
+#spotlight div.right div.img {
+    
+margin-left: 25%;
+    
+width: 60%;
+}
+#spotlight div.right div.img img {
+    display: block;
+    width: 100%;
+   
+}
+#spotlight div.right div.imgone {
+    margin-left: 56%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 23px;
+}
+#spotlight div.right div.imgone img  {
+    display: block;
+    width: 100%;
+    filter: blur(50px);
+}
+#spotlight div.right div.imgtwo {
+    margin-left: 15%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 33%;
+}
+#spotlight div.right div.imgtwo img  {
+    display: block;
+    width: 100%;
+    filter: blur(40px);
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#gallery section.wrapper {
+    width: 100%;
+}
+#gallery section.wrapper div.card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#gallery section.wrapper div.card div.awards {
+    border: 0.5px solid #e5831e;
+    border-radius: 15px;
+    margin-right: 15px;
+    width: 24%;
+    transition: 0.4s ease-in-out;
+    padding: 10px 10px;
+}
+#gallery section.wrapper div.card div.awards:last-child{
+    margin-right: 0;
+}
+#gallery section.wrapper div.card div.top {
+ display: flex;
+ margin: 30px -2px;
+ width: 100%;
+ align-items: center;
+ justify-content: space-between;
+}
+#gallery section.wrapper div.card div.top div.img {
+    display: flex;
+    background: #342f2f;
+    width: 200px;
+    border-radius: 10px;
+    height: 41px;
+    margin-left: 20px;
+}
+#gallery section.wrapper div.card div.awards:hover {
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+    
+}
+#gallery section.wrapper div.card div.top div.img img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+#gallery section.wrapper div.card div.top  p {
+    font-size: 11px;
+    width: 100%;
+    margin-left: 135px;
+    color: grey;
+}
+#gallery section.wrapper div.card div.bottom {
+    display: flex;
+    align-items: flex-end;
+    /* margin: 26px 13px; */
+    /* justify-content: space-around; */
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left p {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+
+margin-bottom: 34px;
+
+font-size: 19px;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left div.img {
+
+width: 29px;
+}
+
+#gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+
+margin-bottom: 26px;
+
+display: block;
+
+width: 100%;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left p {
+
+margin-bottom: 28px;
+
+font-size: 15px;
+
+color: gray;
+}
+#gallery section.wrapper div.card  div.awards div.bottom div.right {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.right div.img {
+
+width: 22px;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+
+display: block;
+
+width: 100%;
+
+margin-bottom: 15px;
+}
+#design {
+   
+}
+#design div.wrapper {
+    margin-top: 100px;
+    background: url(../Assets/Footer\ -\ image.png);
+    height: 90vh;
+    width: 100%;
+    border-radius: 38px;
+}
+#design div.wrapper div.content {
+    padding: 10% 5%;
+}
+#design div.wrapper div.content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+#design div.wrapper div.content p {
+    margin-bottom: 20px;
+}
+#design div.wrapper div.content form {
+    margin-top: 40px;
+    background: #fff;
+    display: flex;
+    width: 25%;
+    border-radius: 10px;
+}
+
+        
+#design div.wrapper div.content form input {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+   padding: 12px 10px;
+   display: inline-block;
+   border-radius: 10px;
+   background: white;
+}
+#design div.wrapper div.content form input.submit {
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    padding: 12px 12px;
+    border: 1px solid #e5831e;
+    position: relative;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    right: 18px;
+}
+footer {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div.left {
+    margin-bottom: 20px;
+}
+footer div.left div.img {
+    width: 160px;
+}
+footer div.left div.img img {
+    display: block;
+    width: 100%;
+}
+footer div.left p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+footer div.right {
+
+}
+footer div.right nav {
+
+}
+footer div.right nav ul {
+    display: flex;
+}
+footer div.right nav ul li{
+    margin-right: 20px;
+    color: grey;
+}
+footer div.right nav ul li a {
+    color: gray;
+    font-size: 15px;
+}
+footer div.right nav ul li a:hover{
+    color: rgb(255, 245, 245);
+}
+footer div.right nav ul li:last-child{
+    font-size: 27px;
+}
+
+footer div.right nav ul p {
+    color: gray;
+    font-size: 15px;
+}
+footer div.right nav ul p:hover{
+    color: #fff;
+}
+footer div.right nav ul p a {
+    color: #ff5300 ;
+}
+@media all and (max-width:1280px) {
+#gallery section.wrapper div.card div.top p {
+    font-size: 14px;
+    width: 172%;
+    margin-left: 39px;
+    color: grey;
+}
+} 
+@media all and (max-width:980px){
+    section.wrapper{
+        width: 96%;
+        margin: 0 auto;
+    }
+    header section.head div.right nav ul {
+        display: none;
+    }
+    #spotlight div.right div.img {
+        width: 337PX;
+    }
+    #spotlight div.left h1 {
+        font-size: 25px;
+    }
+    #spotlight div.left p {
+        FONT-SIZE: 12PX;
+    }
+    #spotlight div.left a {
+        font-size: 9px;
+        padding:  8px 12PX;
+    }
+    header section.head div.right {
+        width: 41%;
+    }
+    #gallery {
+        margin-top: 100px;
+    }
+    #gallery section.wrapper div.card div.top p {
+        font-size: 14px;
+        width: 173%;
+        margin-left: 17px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 13px;
+    }
+
+    #gallery section.wrapper div.card div.top {
+        margin: 15px 0px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 9px;
+        font-size: 14px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 10px;
+    }
+    
+    #gallery section.wrapper div.card {
+        flex-wrap: wrap;
+    }
+    #gallery section.wrapper div.card div.awards {
+        width: 45%;
+        margin: 20px 15px
+    }
+    header section.head div.right nav {
+        width: 350px;
+    }
+    section.wrapper {
+        width: 90%;
+    }
+    #spotlight div.right div.img {
+        width: 314PX;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 28px;
+        font-size: 18px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 25px;
+    }
+    #gallery section.wrapper div.card div.top {
+        margin: 27px 0px;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        
+        align-items: flex-end;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+    #design div.wrapper {
+        height: 70vh;
+    }
+    #design div.wrapper div.content p {
+        margin-bottom: 40px;
+    }
+    footer div.left {
+        margin-left: 268px;
+    }
+    footer {
+        margin-top: 70px;
+        display: block;
+    }
+    footer div.right nav ul {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    #spotlight div.right div.imgone {
+        margin-left: 231px;
+        width: 133PX;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        margin-top: 23px;
+    }
+    #spotlight div.right div.imgtwo {
+        margin-left: -47px;
+        width: 119PX;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        margin-top: 175px;
+    }
+    section.wrapper {
+        width: 114%;
+        padding: 41px 42px;
+    }
+    #gallery section.wrapper div.card div.awards {
+        width: 100%;
+        margin: 20px 15px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 35px;
+        font-size: 23px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 32px;
+        font-size: 28px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img {
+        width: 38px;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        align-items: flex-end;
+        align-content: flex-start;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        align-items: flex-end;
+        align-content: flex-start;
+        width: 55%;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img {
+        width: 40px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+        margin-left: 205px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 46px;
+    }
+} 
+@media all and (max-width:680px) {
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+        margin-left: 133px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 33px;
+        font-size: 23px;
+        width: 100%;
+    }
+    #gallery section.wrapper div.card div.top p {
+        font-size: 19px;
+        width: 75%;
+        margin-left: 146px;
+    }
+    #design div.wrapper div.content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #design div.wrapper div.content p {
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    #design div.wrapper div.content form input {
+        font-size: 11px;
+        padding: 10px 7px;
+    }
+    #design div.wrapper div.content form input.submit {
+        font-size: 11px;
+        padding: 10px 7px;
+    }
+    footer div.left {
+        margin-left: 181px;
+    }
+    footer div.right nav ul {
+        margin-top: 20px;
+        margin-left: 89px;
+    }
+
+}
+    
+    
+    
+
+
+
+
+
+#spotlight div.right div.img img {
+    display: block;
+    width: 100%;
+   
+}
+#spotlight div.right div.imgone {
+    margin-left: 55%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 23px;
+}
+#spotlight div.right div.imgone img  {
+    display: block;
+    width: 100%;
+    filter: blur(50px);
+}
+#spotlight div.right div.imgtwo {
+    margin-left: 15%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 35%;
+}
+#spotlight div.right div.imgtwo img  {
+    display: block;
+    width: 100%;
+    filter: blur(40px);
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#gallery section.wrapper {
+    width: 100%;
+}
+#gallery section.wrapper div.card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#gallery section.wrapper div.card div.awards {
+    border: 0.5px solid #e5831e;
+    border-radius: 15px;
+    margin-right: 15px;
+    width: 24%;
+    transition: 0.4s ease-in-out;
+    padding: 10px 10px;
+}
+#gallery section.wrapper div.card div.awards:last-child{
+    margin-right: 0;
+}
+#gallery section.wrapper div.card div.top {
+ display: flex;
+ margin: 30px -2px;
+ width: 100%;
+ align-items: center;
+ justify-content: space-between;
+}
+#gallery section.wrapper div.card div.top div.img {
+    display: flex;
+    background: #342f2f;
+    width: 200px;
+    border-radius: 10px;
+    height: 41px;
+    margin-left: 20px;
+}
+#gallery section.wrapper div.card div.awards:hover {
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+    
+}
+#gallery section.wrapper div.card div.top div.img img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+#gallery section.wrapper div.card div.top  p {
+    font-size: 11px;
+    width: 100%;
+    margin-left: 135px;
+    color: grey;
+}
+#gallery section.wrapper div.card div.bottom {
+    display: flex;
+    align-items: flex-end;
+    /* margin: 26px 13px; */
+    /* justify-content: space-around; */
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left p {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+
+margin-bottom: 34px;
+
+font-size: 19px;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left div.img {
+
+width: 29px;
+}
+
+#gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+
+margin-bottom: 26px;
+
+display: block;
+
+width: 100%;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.left p {
+
+margin-bottom: 28px;
+
+font-size: 15px;
+
+color: gray;
+}
+#gallery section.wrapper div.card  div.awards div.bottom div.right {
+
+}
+#gallery section.wrapper div.card div.awards div.bottom div.right div.img {
+
+width: 22px;
+}
+#gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+
+display: block;
+
+width: 100%;
+
+margin-bottom: 15px;
+}
+#design {
+   
+}
+#design div.wrapper {
+    margin-top: 100px;
+    background: url(../Assets/Footer\ -\ image.png);
+    height: 90vh;
+    width: 100%;
+    border-radius: 38px;
+}
+#design div.wrapper div.content {
+    padding: 10% 5%;
+}
+#design div.wrapper div.content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+#design div.wrapper div.content p {
+    margin-bottom: 20px;
+}
+#design div.wrapper div.content form {
+    margin-top: 40px;
+    background: #fff;
+    display: flex;
+    width: 25%;
+    border-radius: 10px;
+}
+
+        
+#design div.wrapper div.content form input {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+   padding: 12px 10px;
+   display: inline-block;
+   border-radius: 10px;
+   background: white;
+}
+#design div.wrapper div.content form input.submit {
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    padding: 12px 12px;
+    border: 1px solid #e5831e;
+    position: relative;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #ff5300, #fc403b, #f0395b, #da3f74, #bf4984);
+    right: 18px;
+}
+footer {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div.left {
+    margin-bottom: 20px;
+}
+footer div.left div.img {
+    width: 160px;
+}
+footer div.left div.img img {
+    display: block;
+    width: 100%;
+}
+footer div.left p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+footer div.right {
+
+}
+footer div.right nav {
+
+}
+footer div.right nav ul {
+    display: flex;
+}
+footer div.right nav ul li{
+    margin-right: 20px;
+    color: grey;
+}
+footer div.right nav ul li a {
+    color: gray;
+    font-size: 15px;
+}
+footer div.right nav ul li a:hover{
+    color: rgb(255, 245, 245);
+}
+footer div.right nav ul li:last-child{
+    font-size: 27px;
+}
+
+footer div.right nav ul p {
+    color: gray;
+    font-size: 15px;
+}
+footer div.right nav ul p:hover{
+    color: #fff;
+}
+footer div.right nav ul p a {
+    color: #ff5300 ;
+}
+@media all and (max-width:1280px) {
+#gallery section.wrapper div.card div.top p {
+    font-size: 14px;
+    width: 172%;
+    margin-left: 39px;
+    color: grey;
+}
+} 
+@media all and (max-width:980px){
+    section.wrapper{
+        width: 96%;
+        margin: 0 auto;
+    }
+    header section.head div.right nav ul {
+        display: none;
+    }
+    #spotlight div.right div.img {
+        width: 337PX;
+    }
+    #spotlight div.left h1 {
+        font-size: 25px;
+    }
+    #spotlight div.left p {
+        FONT-SIZE: 12PX;
+    }
+    #spotlight div.left a {
+        font-size: 9px;
+        padding:  8px 12PX;
+    }
+    header section.head div.right {
+        width: 41%;
+    }
+    #gallery {
+        margin-top: 100px;
+    }
+    #gallery section.wrapper div.card div.top p {
+        font-size: 14px;
+        width: 173%;
+        margin-left: 17px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 13px;
+    }
+
+    #gallery section.wrapper div.card div.top {
+        margin: 15px 0px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 9px;
+        font-size: 14px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 10px;
+    }
+    
+    #gallery section.wrapper div.card {
+        flex-wrap: wrap;
+    }
+    #gallery section.wrapper div.card div.awards {
+        width: 45%;
+        margin: 20px 15px
+    }
+    header section.head div.right nav {
+        width: 350px;
+    }
+    section.wrapper {
+        width: 90%;
+    }
+    #spotlight div.right div.img {
+        width: 314PX;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 28px;
+        font-size: 18px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 25px;
+    }
+    #gallery section.wrapper div.card div.top {
+        margin: 27px 0px;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        
+        align-items: flex-end;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+    #design div.wrapper {
+        height: 70vh;
+    }
+    #design div.wrapper div.content p {
+        margin-bottom: 40px;
+    }
+    footer div.left {
+        margin-left: 268px;
+    }
+    footer {
+        margin-top: 70px;
+        display: block;
+    }
+    footer div.right nav ul {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    #spotlight div.right div.imgone {
+        margin-left: 231px;
+        width: 133PX;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        margin-top: 23px;
+    }
+    #spotlight div.right div.imgtwo {
+        margin-left: -47px;
+        width: 119PX;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        margin-top: 175px;
+    }
+    section.wrapper {
+        width: 114%;
+        padding: 41px 42px;
+    }
+    #gallery section.wrapper div.card div.awards {
+        width: 100%;
+        margin: 20px 15px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left p {
+        margin-bottom: 35px;
+        font-size: 23px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 32px;
+        font-size: 28px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img {
+        width: 38px;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        align-items: flex-end;
+        align-content: flex-start;
+    }
+    #gallery section.wrapper div.card div.bottom {
+        align-items: flex-end;
+        align-content: flex-start;
+        width: 55%;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img {
+        width: 40px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+        margin-left: 205px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left div.img img {
+        margin-bottom: 46px;
+    }
+} 
+@media all and (max-width:680px) {
+    #gallery section.wrapper div.card div.awards div.bottom div.right div.img img {
+        margin-left: 133px;
+    }
+    #gallery section.wrapper div.card div.awards div.bottom div.left h2 {
+        margin-bottom: 33px;
+        font-size: 23px;
+        width: 100%;
+    }
+    #gallery section.wrapper div.card div.top p {
+        font-size: 19px;
+        width: 75%;
+        margin-left: 146px;
+    }
+    #design div.wrapper div.content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #design div.wrapper div.content p {
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    #design div.wrapper div.content form input {
+        font-size: 11px;
+        padding: 10px 7px;
+    }
+    #design div.wrapper div.content form input.submit {
+        font-size: 11px;
+        padding: 10px 7px;
+    }
+    footer div.left {
+        margin-left: 181px;
+    }
+    footer div.right nav ul {
+        margin-top: 20px;
+        margin-left: 89px;
+    }
+
+}
+    
+    
+    
+
+
+
+
